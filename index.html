@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- custom cursor -->
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
+    <!-- custom cursor -->
+    <div id="menu-bars" class="fas fa-bars" ></div>
+    
+    <header>
+        <a href="#" class="logo" ><span>deshmukh    </span>sayali</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Experience</a>
+            <a href="#">Portfolio</a>
+            <a href="#">contact</a>
+            
+        </nav>
+        <div class="follow">
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-twitter"></a>
+        </div>
+        
+    </header>
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <span class="hi">Hello , </span>
+            <h3>i am <span>Sayali deshmukh</span></h3>
+            <p class="info">I am a<span> Full Stack Web Developer</span></p>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia minus pariatur nihil deserunt, in suscipit quasi odit blanditiis vel, officia nisi praesentium nam neque quod tenetur rem dignissimos corrupti fugit?</p>
+            <a href="#" class="btn">About me</a>
+        </div>
+        <div class="image">
+            <img src="./images/useful.jpg" alt="image">
+        </div>
+    </section>
+    <!-- home section ends -->
+
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+        <h1 class="heading">About <span>Me</span></h1>
+        <div class="row-1">
+            <div class="image">
+                <img src="images/finalimage.png" alt="about image">
+            </div>
+            <div class="content">
+                <h3>My name is<spn> Sayali Deshmukh </span>,<hr/> I am a <span> Web Developer</spn></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum officia deleniti possimus magnam, enim aspernatur ratione, sapiente quisquam harum officiis! Temporibus odio rerum hic itaque in nulla nisi eaque.</p>
+
+           
+                <div class="container-box">
+                    <div class="box">
+                        <p><span>Age</span> 19</p>
+                        <p><span>Gender</span> Female</p>
+                        <p><span>Language</span> HIndi , Marathi , English</p>
+                        <p><span>work</span> Full Stack Web Developer</p>
+                    </div>
+                    <div class="box">
+                        <p><span>Freelancer</span> Not available</p>
+                        <p><span>Phone</span> 8010336588</p>
+                        <p><span>Email</span> sayalideshmukh0810@gmail.com</p>
+                        <p><span>Country</span> India</p>
+                        
+
+                    </div>
+                </div>
+            <a href="#" class="btn">Resume</a>
+        </div>
+        </div>
+
+    </section>
+    <!-- About section ends -->
+
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+        <h1><span>Technical</span> Skills</h1>
+        <div class="row-2">
+           
+            <img src="./images/skill5.jpg" alt="skill1">
+        
+            <img src="./images/skill6.jpg" alt="skill1">
+       
+            <img src="./images/skill4.jpg" alt="skill1">
+        
+            <img src="./images/skill3.jpg" alt="skill1">
+        
+            <img src="./images/skill2.jpg" alt="skill1">
+
+            <img src="./images/skill 1.jpg" alt="skill1">
+
+            <img src="./images/skill7.jpg" alt="skill1">
+
+            <img src="./images/skill8.jpg" alt="skill1">
+
+            <img src="./images/skill9.jpg" alt="skill1">
+            
+        </div>
+    </section>
+    <!-- skil section ends -->
+
+    <!-- portfolio section starts -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">My <span>Portfolio</span></h1>
+        <div class="box-container">
+            <img src="./images/portfolio1.jpg" alt="skill1">
+            
+            <img src="./images/portfolio2.png" alt="skill1">
+            
+            <img src="./images/portfolio3.jpg" alt="skill1">
+            
+            <img src="./images/portfolio2.png" alt="skill1">
+            
+            <img src="./images/portfolio3.jpg" alt="skill1">
+            
+            <img src="./images/portfolio1.jpg" alt="skill1">
+            
+            
+        </div>
+    </section>
+    <!-- Portfolio section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="email id" required>
+            <input type="text" id="Phone" placeholder="Phone number" required>
+            <textarea id="message" rows="4" placeholder="How can I help you"></textarea>
+            <button class="btn" type="submit">Send</button>
+        </form>
+        
+    </section>
+    <!-- contact section ends -->
+
+
+   
+
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "sayalideshmukh0810@gmail.com",
+                Password: "password",
+                To: 'sayalideshmukh0810@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "new contact form Enquery",
+                Body: "Name"+ document.getElementById("name").value
+                    +"<br > Email:" + document.getElementById("email").value
+                    +"<br> Phone number:"+ document.getElementById("phone").value
+                    +"<br> Message:"+ document.getElementById("message").value
+            }).then(
+                message => alert("Message send sucessfully")
+            );
+        }
+    </script>
+    <script src="index.js" ></script>
+
+</body>
+</html>
